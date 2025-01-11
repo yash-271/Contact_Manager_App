@@ -1,0 +1,47 @@
+/* Global Variables */
+:root {
+  --main-margin: 5em;
+  --icon-font-size: 20px;
+  --padding-small: 10px;
+}
+
+/* Main Container */
+.main {
+  margin-top: var(--main-margin);
+}
+
+/* Center Content */
+.center {
+  display: flex; /* Added for flexbox layout */
+  justify-content: center;
+  padding: var(--padding-small);
+}
+
+/* Search Input */
+.ui.search input {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+/* Item Styling */
+.item {
+  padding: 15px 0px !important;
+}
+
+/* Icons */
+i.icon {
+  float: right;
+  font-size: var(--icon-font-size);
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main {
+    margin-top: 2em;
+  }
+
+  .ui.search input {
+    width: 100%;
+  }
+}
