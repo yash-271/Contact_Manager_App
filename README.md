@@ -6,7 +6,6 @@ This is a contact manager application built with React. It allows you to add, de
 Features:
 
 -Add new contacts
--Edit existing contacts
 -Delete contacts
 -View a list of all your contacts
 
